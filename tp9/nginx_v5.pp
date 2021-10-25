@@ -1,5 +1,5 @@
 $application = "nginx"
-$version     = "V4"
+$version     = "V5"
 #$content     = "<h1>george ${application}-${version}</h1>"
 package { 'install app':
   name   => $application,
