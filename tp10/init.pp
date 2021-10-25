@@ -21,7 +21,7 @@ class nginx(String $version = "latest", String $application = "nginx") {
   if $osfamily == 'Redhat' {
     file { '/usr/share/nginx/html/index.html':
       ensure  => 'file',
-      content => epp("nginx/content.epp", {'version' => $version, 'app' => $application}),
+      content => epp("nginx/content.epp", {'version' => $version, 'application' => $application}),
       notify  => Service['start app'],
     }
   }
