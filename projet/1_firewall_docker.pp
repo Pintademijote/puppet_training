@@ -2,7 +2,7 @@ class project(String $path_to_script = '/home/vagrant/puppet/projet/') {
   #$path_to_script='/home/vagrant/puppet/projet/'
   file { '/tmp/script_install.sh':
     ensure  => file,
-    source  => 'puppet:///modules/project/files/script_install.sh',
+    source  => 'puppet:///project/files/script_install.sh',
 #    path    => '/tmp/script_install.sh',
 #    owner => 'root',
 #    group => 'root',
