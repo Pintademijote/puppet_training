@@ -7,4 +7,4 @@ cp /home/vagrant/puppet/projet/1_firewall_docker.pp /etc/puppetlabs/code/environ
 cp /home/vagrant/puppet/projet/2_run_docker_compose.pp /etc/puppetlabs/code/environments/wordpress/manifests/2_run_docker_compose.pp
 cp -rf /home/vagrant/puppet/projet/wordpress.yml /etc/puppetlabs/code/environments/wordpress/modules/project/files/
 cp -rf /home/vagrant/puppet/projet/script_install.sh /etc/puppetlabs/code/environments/wordpress/modules/project/files/
-cp -rf /etc/puppetlabs/code/environments/wordpress/modules/project/ /etc/puppetlabs/code/environments/wordpress/modules/project/
+cp -rf /etc/puppetlabs/code/environments/wordpress/modules/project/ /etc/puppetlabs/code/environments/production/modules/project/
