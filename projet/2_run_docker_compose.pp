@@ -1,4 +1,4 @@
-include 'wordpress'
+include 'project'
 include 'docker'
 
 docker_compose { 'docker_compose':

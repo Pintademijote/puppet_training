@@ -1,4 +1,4 @@
-class wordpress(String $path_to_script = '/home/vagrant/puppet/projet/') {
+class project(String $path_to_script = '/home/vagrant/puppet/projet/') {
   #$path_to_script='/home/vagrant/puppet/projet/'
   exec { 'bash script_install.sh':
     cwd     => $path_to_script,
