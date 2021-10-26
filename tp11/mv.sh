@@ -1,0 +1,1 @@
+cp /home/vagrant/puppet/tp11/nginx_v7.pp /etc/puppetlabs/code/environments/production/manifests/
