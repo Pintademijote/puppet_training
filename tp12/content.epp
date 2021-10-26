@@ -1,1 +1,1 @@
-<h1>george <%= $application %>-<%= $version %> from <%= $facts["fqdn"] %></h1>
+<h1>george <%= $application %>-<%= $version %> from <%= $facts["fqdn"] %> dev</h1>
