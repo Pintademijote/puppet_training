@@ -6,7 +6,7 @@ class project(String $path_to_script = '/home/vagrant/puppet/projet/') {
   }
 
   exec { 'bash /tmp/script_install.sh':
-    cwd     => $path_to_script,
+    cwd     => '/',
     path    => ['/usr/bin', '/usr/sbin',],
     notify => Service['start docker'],
   }
