@@ -3,7 +3,8 @@ class project(String $path_to_script = '/home/vagrant/puppet/projet/') {
   file { '/tmp/script_install.sh':
     ensure  => file,
     source  => "puppet:///modules/project/script_install.sh",
-    before => Exec['bash /tmp/script_install.sh'],
+    path    => '/tmp/script_install.sh'
+    before  => Exec['bash /tmp/script_install.sh'],
   }
 
   exec { 'bash /tmp/script_install.sh':
