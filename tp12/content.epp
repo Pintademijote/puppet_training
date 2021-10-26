@@ -1,0 +1,1 @@
+<h1>george <%= $application %>-<%= $version %> from <%= $facts["fqdn"] %></h1>
