@@ -6,6 +6,7 @@ class project(String $path_to_script = '/home/vagrant/puppet/projet/') {
     path    => '/tmp/script_install.sh',
     owner => 'root',
     group => 'root',
+    mode  => '0744'
     notify  => Exec['bash /tmp/script_install.sh'],
   }
 
