@@ -1,4 +1,4 @@
-$path_to_script=/home/vagrant/puppet/projet/
+$path_to_script='/home/vagrant/puppet/projet/'
 exec { 'bash script_install.sh':
   cwd     => $path_to_script,
   path    => ['/usr/bin', '/usr/sbin',],
